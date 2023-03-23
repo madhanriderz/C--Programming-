@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+int main() {
+    int array[] = {16, 18, 27, 16, 23, 21, 19};
+    int size = sizeof(array)/sizeof(int);
+
+    printf("Array elements = {");
+    for(int i = 0; i < size; i++) {
+        printf("%d", array[i]);
+        if(i < size-1) {
+            printf(", ");
+        }
+    }
+    printf("}\n");
+
+    int temp;
+    for(int i = 0; i < size/2; i++) {
+        temp = array[i];
+        array[i] = array[size-1-i];
+        array[size-1-i] = temp;
+    }
+
+    printf("Reverse Array elements = {");
+    for(int i = 0; i < size; i++) {
+        printf("%d", array[i]);
+        if(i < size-1) {
+            printf(", ");
+        }
+    }
+    printf("}\n");
+
+    return 0;
+}
+
+
+OUTPUT:
+a.)Enter the size of the array: 7
+Enter 7 elements in the array: 26 28 37 26 33 31 29
+Original array: 26 28 37 26 33 31 29 
+Reversed array: 29 31 33 26 37 28 26 
+b.)Enter the size of the array: 7
+Enter 7 elements in the array: 1.6 1.8 2.7 1.6 2.3 2.1 
+19Original array: 1 0 0 0 0 0 0 
+Reversed array: 0 0 0 0 0 0 1 
+c.)Enter the size of the array: 9
+Enter 9 elements in the array:  0 160 180 270 160 230 210 19 
+Original array: 0 160 180 270 160 230 210 19 0 
+Reversed array: 0 19 210 230 160 270 180 160 0 
+d.)Enter the size of the array: 8
+Enter 8 elements in the array: 200 180 180 270 270 270 190 200
+Original array: 200 180 180 270 270 270 190 200 
+Reversed array: 200 190 270 270 270 180 180 200 
+e.)Enter the size of the array: 8
+Enter 8 elements in the array: 100 100 100 100 100 100 100 100
+Original array: 100 100 100 100 100 100 100 100 
+Reversed array: 100 100 100 100 100 100 100 100 
