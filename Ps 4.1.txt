@@ -1,0 +1,26 @@
+prog to reverse number usinf for loop
+
+
+#include <stdio.h>
+
+int main() {
+    int num, reverse = 0, remainder;
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    for (; num != 0; num /= 10) {
+        remainder = num % 10;
+        reverse = reverse * 10 + remainder;
+    }
+    
+    printf("The reversed number is: %d", reverse);
+    
+    return 0;
+}
+
+
+Output:
+
+Enter a number: 12345
+The reversed number is: 54321
