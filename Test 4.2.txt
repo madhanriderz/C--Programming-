@@ -17,8 +17,8 @@ int main() {
 }
 
         𝗢𝗨𝗧𝗣𝗨𝗧
-1.Array of elements = {-26, 28, 37, -26, 33, -31, -29}                                                        There are 4 negative numbers in the array
-2. Array of elements = {1.6, 1.8, 2.7, -1.6, 2.3, -2.1, .19}                                                   There are 2 negative numbers in the array
-3. Array of elements = {0, 160, 180, 270, 160, 230, 210, 190, 0}                                 There are 0 negative numbers in the array  
-4. Array of elements = {-16, 2.8, -7, -1.5, 2.8, -2.8, -.19}                                                   There are 5 negative numbers in the array 
-5. Array of elements = {-160, -160, -180, -270, -160, -230, -210, 1-90, 0}                There are 8 negative numbers in the array
+1.Array of elements = {-26, 28, 37, -26, 33, -31, -29}                                      There are 4 negative numbers in the array
+2. Array of elements = {1.6, 1.8, 2.7, -1.6, 2.3, -2.1, .19}                                There are 2 negative numbers in the array
+3. Array of elements = {0, 160, 180, 270, 160, 230, 210, 190, 0}                            There are 0 negative numbers in the array  
+4. Array of elements = {-16, 2.8, -7, -1.5, 2.8, -2.8, -.19}                                There are 5 negative numbers in the array 
+5. Array of elements = {-160, -160, -180, -270, -160, -230, -210, 1-90, 0}                  There are 8 negative numbers in the array
