@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main() {
+    int python, c, math, physics, total;
+    float aggregate;
+
+    printf("Enter the marks in python: ");
+    scanf("%d", &python);
+
+    printf("Enter the marks in c programming: ");
+    scanf("%d", &c);
+
+    printf("Enter the marks in Mathematics: ");
+    scanf("%d", &math);
+
+    printf("Enter the marks in Physics: ");
+    scanf("%d", &physics);
+
+    total = python + c + math + physics;
+    aggregate = (float) total / 4;
+
+    printf("Total= %d\n", total);
+    printf("Aggregate = %.1f\n", aggregate);
+
+    if (aggregate >= 75) {
+        printf("DISTINCTION");
+    } else if (aggregate >= 60 && aggregate < 75) {
+        printf("FIRST DIVISION");
+    } else if (aggregate >= 50 && aggregate < 60) {
+        printf("SECOND DIVISION");
+    } else if (aggregate >= 40 && aggregate < 50) {
+        printf("THIRD DIVISION");
+    } else {
+        printf("FAIL");
+    }
+
+    return 0;
+}
+
